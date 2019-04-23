@@ -1,0 +1,16 @@
+[[source]]
+name = "my-pipenv"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+verify_ssl = true
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+django-rest-swagger = "*"
+djangorestframework-jwt = "*"
