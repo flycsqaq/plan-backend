@@ -26,7 +26,7 @@ SECRET_KEY = 'bps0x*6-nuz6bro$y24%b$f0h+n=jtj1&52m8x@y8lp7^($gri'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1',]
 
 
 # Application definition
@@ -99,7 +99,6 @@ REST_FRAMEWORK = {
 
 
 JWT_AUTH = {
-    # 有效期
     'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
 }
 

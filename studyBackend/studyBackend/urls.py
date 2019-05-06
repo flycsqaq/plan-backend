@@ -19,7 +19,7 @@ router = DefaultRouter()
 from rest_framework.schemas import get_schema_view
 from rest_framework_swagger.renderers import SwaggerUIRenderer, OpenAPIRenderer
 
-schema_view = get_schema_view(title="我的docs", renderer_classes=[OpenAPIRenderer, SwaggerUIRenderer])
+schema_view = get_schema_view(title="my docs", renderer_classes=[OpenAPIRenderer, SwaggerUIRenderer])
 
 from rest_framework_jwt.views import obtain_jwt_token, verify_jwt_token, refresh_jwt_token
 from django.conf.urls import url, include
